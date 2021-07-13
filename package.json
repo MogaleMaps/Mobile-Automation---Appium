@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Appium Mobile Testing",
+  "main": "index.js",
+  "scripts": {
+    "mytest": "mytest.js",
+    "test": "mocha --timeout 15000"
+  },
+  "author": "Johnson Mogale Mapaela",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.7.5",
+    "appium-uiautomator2-driver": "^1.67.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.0.2",
+    "wd": "^1.14.0",
+    "wdio-appium-service": "^0.2.3",
+    "webdriverio": "^4.8.0"
+  }
+}
