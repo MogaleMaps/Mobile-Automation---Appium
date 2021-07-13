@@ -1,9 +1,9 @@
- #Author 
+ # Author 
  
  - Johnson Mogale Mapaela
  - I have attached a video of the tests executing in the the direcorty : Global Kinetic Appium\videoexecutingtest\2021-07-13_13-13-19.mp4
  
- #Pre-Requisites
+ # Pre-Requisites
 	- Android SDK (Android Studio with SDK).
 	- JDK (Java Development Kit).
 	- Appium Client for Windows.
@@ -14,7 +14,7 @@
 	- Download and install Android SDK. After installation, you will need to set the “ANDROID_HOME” in the environment variables
 	- Download and install JAVA. After installation, you will need to set the “JAVA_HOME” in the environment variables
 	- Run Appium and click "start server". 
- #Running_Appium
+ # Running_Appium
  
 	Note: So that we can install the desired application, fill in the desired capabilities for testing reasons.
 
@@ -40,12 +40,12 @@ I used webdriverio testing utility as it improves interaction with the mobile we
 		* npm install webdriverio@4.8.0 --save --force
 		* npm install wdio-mocha-framework
 		
-  #Running the Test
+  # Running the Test
 
 Command line/Terminal, Please enter: 
 	- npx mocha .\mytest.js --timeout 5000
 	
-   #Closing
+   # Closing
 	- Enjoyed working with Appium
 	- Keen on learning ways to automate mobile through other frameworks
 	- Keen on learning better ways of assersion and binary storage(s).
